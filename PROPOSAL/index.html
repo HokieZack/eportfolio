@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Zachary Smiths e-portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <style>
+        .is-scrollable {
+            max-height: 100%; /* Adjust height as needed */
+            overflow-y: auto;  /* Adds scrollbar only when content overflows */
+        }
+    </style>
 </head>
 <body>
 <nav class="navbar is-black" role="navigation" aria-label="main navigation">
@@ -21,8 +27,23 @@
         </div>
     </div>
 </nav>
-<div class="content">
-    <p>first page test</p>
+<div class="content has-text-centered">
+    <p class=" px-3">This is my Proposal. the focus of this proposal was a script I created for the
+        Radford University IT Security Team. </p>
+</div>
+<div class="content is-scrollable">
+    <div class="content has-text-centered">
+        <a href="https://1drv.ms/w/c/cc7706e994b67c33/IQTSlubcT3OAQo17n3b8SkVVAX79CbfphSV8jWYNLIyuSDs" class=" px-3">The Proposal</a>
+    </div>
+    <div class="is-fluid" style="height: 100vh;">
+        <iframe src="https://1drv.ms/w/c/cc7706e994b67c33/IQTSlubcT3OAQo17n3b8SkVVAX79CbfphSV8jWYNLIyuSDs?em=2&amp;wdEmbedCode=0" width="100%" height="700px" frameborder="0" title="PowerPoint Viewer">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> document, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+    </div>
+    <div class="content has-text-centered">
+        <a href="https://1drv.ms/p/c/cc7706e994b67c33/IQQPh_H2Z4rfRqsuiU100jtLARKN9h6FaR2vUapdwr-TgqE" class=" px-3">the Slides</a>
+    </div>
+    <div class="is-fluid" style="height: 100vh;">
+        <iframe src="https://1drv.ms/p/c/cc7706e994b67c33/IQQPh_H2Z4rfRqsuiU100jtLARKN9h6FaR2vUapdwr-TgqE?em=2&amp;wdAr=1.7777777777777777" width="100%" height="700px" frameborder="0" title="PowerPoint Viewer">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+    </div>
 </div>
 </body>
 </html>
